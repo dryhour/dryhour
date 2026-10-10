@@ -1,5 +1,10 @@
 ## Hi there 👋
 
+### 📊 My GitHub Language Stats
+
+[![Top Langs](https://vercel.app)](https://github.com)
+
+
 <!--
 **dryhour/dryhour** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
