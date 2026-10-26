@@ -71,7 +71,7 @@
         }
       }
     
-          
+          * { animation-duration: 0s !important; animation-delay: 0s !important; }
         </style>
 
         
@@ -95,69 +95,78 @@
           <rect x="0" y="0" width="250" height="8" fill="white" rx="5" />
         </mask>
         
-        <rect mask="url(#languages-rect-mask)" data-testid="lang-progress" x="0" y="0" width="85.55" height="8" fill="#000080" />
+        <rect mask="url(#languages-rect-mask)" data-testid="lang-progress" x="0" y="0" width="124.16" height="8" fill="#3572A5" />
       
-        <rect mask="url(#languages-rect-mask)" data-testid="lang-progress" x="85.55" y="0" width="77.84" height="8" fill="#3572A5" />
+        <rect mask="url(#languages-rect-mask)" data-testid="lang-progress" x="124.16" y="0" width="59.96" height="8" fill="#000080" />
       
-        <rect mask="url(#languages-rect-mask)" data-testid="lang-progress" x="163.39" y="0" width="56.58" height="8" fill="#f1e05a" />
+        <rect mask="url(#languages-rect-mask)" data-testid="lang-progress" x="184.12" y="0" width="39.65" height="8" fill="#f1e05a" />
       
-        <rect mask="url(#languages-rect-mask)" data-testid="lang-progress" x="219.96999999999997" y="0" width="12.2" height="8" fill="#A97BFF" />
+        <rect mask="url(#languages-rect-mask)" data-testid="lang-progress" x="223.77" y="0" width="18.55" height="8" fill="#A97BFF" />
       
-        <rect mask="url(#languages-rect-mask)" data-testid="lang-progress" x="232.16999999999996" y="0" width="18.86" height="8" fill="#f34b7d" />
+        <rect mask="url(#languages-rect-mask)" data-testid="lang-progress" x="232.32000000000002" y="0" width="16.21" height="8" fill="#f34b7d" />
       
-        <rect mask="url(#languages-rect-mask)" data-testid="lang-progress" x="241.02999999999997" y="0" width="14.54" height="8" fill="#198CE7" />
+        <rect mask="url(#languages-rect-mask)" data-testid="lang-progress" x="238.53000000000003" y="0" width="14.59" height="8" fill="#DA5B0B" />
       
-        <rect mask="url(#languages-rect-mask)" data-testid="lang-progress" x="245.56999999999996" y="0" width="14.43" height="8" fill="#b07219" />
+        <rect mask="url(#languages-rect-mask)" data-testid="lang-progress" x="243.12000000000003" y="0" width="13.77" height="8" fill="#198CE7" />
+      
+        <rect mask="url(#languages-rect-mask)" data-testid="lang-progress" x="246.89000000000004" y="0" width="13.1" height="8" fill="#b07219" />
       
       
     <g transform="translate(0, 25)">
       <g transform="translate(0, 0)"><g transform="translate(0, 0)">
     <g class="languages-stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#000080" />
+      <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class="languages-lang-name">
-        Lua 34.22%
+        Python 49.67%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="languages-stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#3572A5" />
+      <circle cx="5" cy="6" r="5" fill="#000080" />
       <text data-testid="lang-name" x="15" y="10" class="languages-lang-name">
-        Python 31.14%
+        Lua 23.99%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="languages-stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#f1e05a" />
       <text data-testid="lang-name" x="15" y="10" class="languages-lang-name">
-        JavaScript 22.63%
+        JavaScript 15.86%
       </text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="languages-stagger" style="animation-delay: 900ms">
       <circle cx="5" cy="6" r="5" fill="#A97BFF" />
       <text data-testid="lang-name" x="15" y="10" class="languages-lang-name">
-        Kotlin 4.88%
+        Kotlin 3.42%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="languages-stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#f34b7d" />
       <text data-testid="lang-name" x="15" y="10" class="languages-lang-name">
-        C++ 3.54%
+        C++ 2.48%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="languages-stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#198CE7" />
+      <circle cx="5" cy="6" r="5" fill="#DA5B0B" />
       <text data-testid="lang-name" x="15" y="10" class="languages-lang-name">
-        R 1.82%
+        Jupyter Notebook 1.84%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="languages-stagger" style="animation-delay: 750ms">
+      <circle cx="5" cy="6" r="5" fill="#198CE7" />
+      <text data-testid="lang-name" x="15" y="10" class="languages-lang-name">
+        R 1.51%
+      </text>
+    </g>
+  </g><g transform="translate(0, 75)">
+    <g class="languages-stagger" style="animation-delay: 900ms">
       <circle cx="5" cy="6" r="5" fill="#b07219" />
       <text data-testid="lang-name" x="15" y="10" class="languages-lang-name">
-        Java 1.77%
+        Java 1.24%
       </text>
     </g>
   </g></g>
@@ -168,7 +177,7 @@
         </g>
       </svg><svg width="455.02564102564105" height="190" viewBox="0 0 467 195" fill="none" role="img" aria-labelledby="stats-descId" x="351.33333333333326" y="133">
         <title id="stats-titleId">GitHub Stats, Rank: C+</title>
-        <desc id="stats-descId">Total Stars Earned: 0, Total Commits  (last year) : 373, Total PRs: 7, Total Issues: 2, Contributed to (last year): 3</desc>
+        <desc id="stats-descId">Total Stars Earned: 0, Total Commits  (last year) : 380, Total PRs: 7, Total Issues: 2, Contributed to (last year): 5</desc>
         <style>
           .stats-header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -232,7 +241,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 211.4069752021093;
+        stroke-dashoffset: 210.12340590067083;
       }
     }
   
@@ -304,7 +313,7 @@
     </svg>
   
       <text class="stats-stat stats-bold" x="25" y="12.5">Total Commits (last year):</text>
-      <text class="stats-stat stats-bold" x="219.01" y="12.5" data-testid="commits">373</text>
+      <text class="stats-stat stats-bold" x="219.01" y="12.5" data-testid="commits">380</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stats-stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -334,7 +343,7 @@
     </svg>
   
       <text class="stats-stat stats-bold" x="25" y="12.5">Contributed to (last year):</text>
-      <text class="stats-stat stats-bold" x="219.01" y="12.5" data-testid="contribs">3</text>
+      <text class="stats-stat stats-bold" x="219.01" y="12.5" data-testid="contribs">5</text>
     </g>
   </g>
     </svg>
@@ -374,7 +383,7 @@
                 
                 <g transform="translate(82.5, 48)">
                     <text x="0" y="32" stroke-width="0" text-anchor="middle" fill="#70A5FD" stroke="none" font-family="&quot;Segoe UI&quot;, Ubuntu, sans-serif" font-weight="700" font-size="28px" font-style="normal" style="opacity: 1; ">
-                        486
+                        518
                     </text>
                 </g>
 
@@ -403,7 +412,7 @@
                 
                 <g transform="translate(247.5, 145)">
                     <text x="0" y="21" stroke-width="0" text-anchor="middle" fill="#38BDAE" stroke="none" font-family="&quot;Segoe UI&quot;, Ubuntu, sans-serif" font-weight="400" font-size="12px" font-style="normal" style="opacity: 1; ">
-                        Oct 10
+                        Oct 15 - Oct 26
                     </text>
                 </g>
 
@@ -420,7 +429,7 @@
                 
                 <g transform="translate(247.5, 48)">
                     <text x="0" y="32" stroke-width="0" text-anchor="middle" fill="#BF91F3" stroke="none" font-family="&quot;Segoe UI&quot;, Ubuntu, sans-serif" font-weight="700" font-size="28px" font-style="normal" style="">
-                        1
+                        12
                     </text>
                 </g>
 
@@ -429,7 +438,7 @@
                 
                 <g transform="translate(412.5, 48)">
                     <text x="0" y="32" stroke-width="0" text-anchor="middle" fill="#70A5FD" stroke="none" font-family="&quot;Segoe UI&quot;, Ubuntu, sans-serif" font-weight="700" font-size="28px" font-style="normal" style="opacity: 1; ">
-                        10
+                        12
                     </text>
                 </g>
 
@@ -443,10 +452,10 @@
                 
                 <g transform="translate(412.5, 114)">
                     <text x="0" y="32" stroke-width="0" text-anchor="middle" fill="#38BDAE" stroke="none" font-family="&quot;Segoe UI&quot;, Ubuntu, sans-serif" font-weight="400" font-size="12px" font-style="normal" style="opacity: 1; ">
-                        Feb 18 - Feb 27
+                        Oct 15 - Oct 26
                     </text>
                 </g>
             </g>
             
         </g>
-    </svg><svg width="146.5" height="28" role="img" aria-label="FOLLOWERS: 4" x="596.75" y="351"><title>FOLLOWERS: 4</title><a target="_blank" href="https://github.com/dryhour?tab=followers"><g shape-rendering="crispEdges"><rect width="114.25" height="28" fill="#555" /><rect x="114.25" width="32.25" height="28" fill="#1f6feb" /></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZXNtb2tlIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R2l0SHViPC90aXRsZT48cGF0aCBkPSJNMTIgLjI5N2MtNi42MyAwLTEyIDUuMzczLTEyIDEyIDAgNS4zMDMgMy40MzggOS44IDguMjA1IDExLjM4NS42LjExMy44Mi0uMjU4LjgyLS41NzcgMC0uMjg1LS4wMS0xLjA0LS4wMTUtMi4wNC0zLjMzOC43MjQtNC4wNDItMS42MS00LjA0Mi0xLjYxQzQuNDIyIDE4LjA3IDMuNjMzIDE3LjcgMy42MzMgMTcuN2MtMS4wODctLjc0NC4wODQtLjcyOS4wODQtLjcyOSAxLjIwNS4wODQgMS44MzggMS4yMzYgMS44MzggMS4yMzYgMS4wNyAxLjgzNSAyLjgwOSAxLjMwNSAzLjQ5NS45OTguMTA4LS43NzYuNDE3LTEuMzA1Ljc2LTEuNjA1LTIuNjY1LS4zLTUuNDY2LTEuMzMyLTUuNDY2LTUuOTMgMC0xLjMxLjQ2NS0yLjM4IDEuMjM1LTMuMjItLjEzNS0uMzAzLS41NC0xLjUyMy4xMDUtMy4xNzYgMCAwIDEuMDA1LS4zMjIgMy4zIDEuMjMuOTYtLjI2NyAxLjk4LS4zOTkgMy0uNDA1IDEuMDIuMDA2IDIuMDQuMTM4IDMgLjQwNSAyLjI4LTEuNTUyIDMuMjg1LTEuMjMgMy4yODUtMS4yMy42NDUgMS42NTMuMjQgMi44NzMuMTIgMy4xNzYuNzY1Ljg0IDEuMjMgMS45MSAxLjIzIDMuMjIgMCA0LjYxLTIuODA1IDUuNjI1LTUuNDc1IDUuOTIuNDIuMzYuODEgMS4wOTYuODEgMi4yMiAwIDEuNjA2LS4wMTUgMi44OTYtLjAxNSAzLjI4NiAwIC4zMTUuMjEuNjkuODI1LjU3QzIwLjU2NSAyMi4wOTIgMjQgMTcuNTkyIDI0IDEyLjI5N2MwLTYuNjI3LTUuMzczLTEyLTEyLTEyIi8+PC9zdmc+" /><text transform="scale(.1)" x="656.25" y="175" textLength="732.5">FOLLOWERS</text><text transform="scale(.1)" x="1303.75" y="175" textLength="82.5" font-weight="bold">4</text></g></a></svg><style>* { animation-duration: 0s !important; animation-delay: 0s !important; }</style></svg>
+    </svg><svg width="146.5" height="28" role="img" aria-label="FOLLOWERS: 5" x="596.75" y="351"><title>FOLLOWERS: 5</title><a target="_blank" href="https://github.com/dryhour?tab=followers"><g shape-rendering="crispEdges"><rect width="114.25" height="28" fill="#000000" /><rect x="114.25" width="32.25" height="28" fill="#1f6feb" /></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZXNtb2tlIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R2l0SHViPC90aXRsZT48cGF0aCBkPSJNMTIgLjI5N2MtNi42MyAwLTEyIDUuMzczLTEyIDEyIDAgNS4zMDMgMy40MzggOS44IDguMjA1IDExLjM4NS42LjExMy44Mi0uMjU4LjgyLS41NzcgMC0uMjg1LS4wMS0xLjA0LS4wMTUtMi4wNC0zLjMzOC43MjQtNC4wNDItMS42MS00LjA0Mi0xLjYxQzQuNDIyIDE4LjA3IDMuNjMzIDE3LjcgMy42MzMgMTcuN2MtMS4wODctLjc0NC4wODQtLjcyOS4wODQtLjcyOSAxLjIwNS4wODQgMS44MzggMS4yMzYgMS44MzggMS4yMzYgMS4wNyAxLjgzNSAyLjgwOSAxLjMwNSAzLjQ5NS45OTguMTA4LS43NzYuNDE3LTEuMzA1Ljc2LTEuNjA1LTIuNjY1LS4zLTUuNDY2LTEuMzMyLTUuNDY2LTUuOTMgMC0xLjMxLjQ2NS0yLjM4IDEuMjM1LTMuMjItLjEzNS0uMzAzLS41NC0xLjUyMy4xMDUtMy4xNzYgMCAwIDEuMDA1LS4zMjIgMy4zIDEuMjMuOTYtLjI2NyAxLjk4LS4zOTkgMy0uNDA1IDEuMDIuMDA2IDIuMDQuMTM4IDMgLjQwNSAyLjI4LTEuNTUyIDMuMjg1LTEuMjMgMy4yODUtMS4yMy42NDUgMS42NTMuMjQgMi44NzMuMTIgMy4xNzYuNzY1Ljg0IDEuMjMgMS45MSAxLjIzIDMuMjIgMCA0LjYxLTIuODA1IDUuNjI1LTUuNDc1IDUuOTIuNDIuMzYuODEgMS4wOTYuODEgMi4yMiAwIDEuNjA2LS4wMTUgMi44OTYtLjAxNSAzLjI4NiAwIC4zMTUuMjEuNjkuODI1LjU3QzIwLjU2NSAyMi4wOTIgMjQgMTcuNTkyIDI0IDEyLjI5N2MwLTYuNjI3LTUuMzczLTEyLTEyLTEyIi8+PC9zdmc+" /><text transform="scale(.1)" x="656.25" y="175" textLength="732.5">FOLLOWERS</text><text transform="scale(.1)" x="1303.75" y="175" textLength="82.5" font-weight="bold">5</text></g></a></svg><style>* { animation-duration: 0s !important; animation-delay: 0s !important; }</style></svg>
