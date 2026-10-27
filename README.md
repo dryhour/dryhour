@@ -1,1 +1,1 @@
-<p align="center"><img src="./profile.svg" width="100%" alt="dryhour — Quantitative Finance, Data Analytics, Software Engineering. GitHub languages, activity, contribution streak, and followers." /></p>
+![My GitHub Banner](assets/banner.gif)
