@@ -1,11 +1,4 @@
 <img src="https://github.com/user-attachments/assets/198e78f9-e32c-4d4d-958b-2248836726db" alt="Deftones GIF" width="100%">
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=A3202B&center=true&vCenter=true&width=600&lines=hey,+i'm+dryhour;writing+code+at+3am;currently+building+something+new" alt="Typing SVG">
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=dryhour&color=7a1a1a&style=flat-square&label=profile+views" alt="Profile views">
-</p>
 
 ---
 
