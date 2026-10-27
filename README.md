@@ -1,1 +1,1 @@
-![My GitHub Banner](assets/banner.gif)
+<img src="assets/my-banner.gif" alt="Banner" width="100%"
